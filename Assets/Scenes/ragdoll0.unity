@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,6 +466,7 @@ GameObject:
   - component: {fileID: 674171050}
   - component: {fileID: 674171049}
   - component: {fileID: 674171054}
+  - component: {fileID: 674171055}
   m_Layer: 0
   m_Name: Player4_Legs
   m_TagString: Untagged
@@ -561,6 +562,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Value: 3
+--- !u!114 &674171055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674171048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a398c24ed69c8044b2ab4013b8bce99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &701932572 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 515125870, guid: 4c60675cb7e8eb44a84b0755de0d0b24,
@@ -690,6 +703,36 @@ Rigidbody:
     type: 3}
   m_PrefabInstance: {fileID: 1983292956558043865}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &967776859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1983292957502847039, guid: 4c60675cb7e8eb44a84b0755de0d0b24,
+    type: 3}
+  m_PrefabInstance: {fileID: 1983292956558043865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &967776860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967776859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfefefab0c78a5459c84ebd8e48c57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &967776861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967776859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &985543661 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 265380874, guid: 4c60675cb7e8eb44a84b0755de0d0b24,
@@ -710,6 +753,7 @@ GameObject:
   - component: {fileID: 1466414601}
   - component: {fileID: 1466414600}
   - component: {fileID: 1466414605}
+  - component: {fileID: 1466414606}
   m_Layer: 0
   m_Name: Player3_Arms
   m_TagString: Untagged
@@ -805,6 +849,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Value: 2
+--- !u!114 &1466414606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466414599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a398c24ed69c8044b2ab4013b8bce99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1627771569 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 195027079, guid: 4c60675cb7e8eb44a84b0755de0d0b24,
@@ -825,6 +881,7 @@ GameObject:
   - component: {fileID: 1705407611}
   - component: {fileID: 1705407615}
   - component: {fileID: 1705407610}
+  - component: {fileID: 1705407616}
   m_Layer: 0
   m_Name: Player1_Head
   m_TagString: Untagged
@@ -920,6 +977,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Value: 0
+--- !u!114 &1705407616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705407609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a398c24ed69c8044b2ab4013b8bce99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1827243922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1074,7 @@ GameObject:
   - component: {fileID: 1885261262}
   - component: {fileID: 1885261266}
   - component: {fileID: 1885261261}
+  - component: {fileID: 1885261267}
   m_Layer: 0
   m_Name: Player2_Chest
   m_TagString: Untagged
@@ -1100,6 +1170,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Value: 1
+--- !u!114 &1885261267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885261260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a398c24ed69c8044b2ab4013b8bce99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1983292956558043865
 PrefabInstance:
   m_ObjectHideFlags: 0
