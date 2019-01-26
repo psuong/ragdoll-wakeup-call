@@ -34,13 +34,14 @@ namespace RagdollWakeUp.Inputs.Systems {
                 var device = devices[i];
                 var lhs = device.LeftStick.Value;
                 var rhs = device.RightStick.Value;
-
-                axii[i] = new InputAxii {
+                
+                // Get the ID and remap the index.
+                var id = limbIds[i].Value;
+                // Write the new input data.
+                axii[id] = new InputAxii {
                     LeftJoyStick  = lhs,
                     RightJoyStick = rhs
                 };
-                
-                Debug.Log($"Writing into: {limbIds[i].Value}");
             }
         }
     }
