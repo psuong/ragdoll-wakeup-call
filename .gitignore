@@ -52,7 +52,7 @@ Assets/StreamingAssets/crashlytics-build.properties
 
 ### VS Code ###
 .vscode/
-.vscode-workspace
+*.code-workspace
 
 ### Rider ###
 *.idea/
