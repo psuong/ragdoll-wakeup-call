@@ -1117,6 +1117,7 @@ MonoBehaviour:
     Pivot: {x: 0, y: 2, z: 0}
     Distance: 3
     Height: 0
+    HeightRange: {x: -1, y: 2}
     OrbitSensitivity: 1
     OrbitSpeed: 8
 --- !u!114 &1885261268

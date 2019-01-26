@@ -2,6 +2,7 @@
 using UnityEngine;
 
 namespace RagdollWakeUp.Cameras {
+    [UpdateAfter (typeof (WriteInputToCameraAxisSystem))]
     public class OrbitCameraSystem : ComponentSystem {
 
         private ComponentGroup cameraGroup;

@@ -8,6 +8,7 @@ namespace RagdollWakeUp.Cameras {
         public Vector3 Pivot;
         public float Distance;
         public float Height;
+        public Vector2 HeightRange;
         public float OrbitSensitivity;
         public float OrbitSpeed;
     }
