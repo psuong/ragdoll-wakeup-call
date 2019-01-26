@@ -12,7 +12,7 @@ namespace RagdollWakeUp.Inputs.Systems {
 
         protected override void OnCreateManager() {
             inputDevicesGroup = GetComponentGroup(ComponentType.ReadOnly<PlayerDevicePoolInstance>());
-            limbGroups = GetComponentGroup(typeof(InputAxiiComponent), typeof(IDComponent));
+            limbGroups = GetComponentGroup(typeof(InputAxii), typeof(ID));
         }
 
         protected override void OnUpdate() {
@@ -40,7 +40,7 @@ namespace RagdollWakeUp.Inputs.Systems {
                     RightJoyStick = rhs
                 };
                 
-                Debug.Log(limbIds[i].Value);
+                Debug.Log($"Writing into: {limbIds[i].Value}");
             }
         }
     }
