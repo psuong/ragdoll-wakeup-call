@@ -31,8 +31,12 @@ namespace RagdollWakeUp.Forces {
                 leftForceVec *= forceMultiplier;
                 rightForceVec *= forceMultiplier;
 
-                limbs.LeftLimb.AddForce (leftForceVec);
-                limbs.RightLimb.AddForce (rightForceVec);
+                if (limbs.LeftLimb != null) {
+                    limbs.LeftLimb?.AddForce (leftForceVec);
+                }
+
+                if (limbs.RightLimb != null)
+                    limbs.RightLimb?.AddForce (rightForceVec);
             }
         }
     }
