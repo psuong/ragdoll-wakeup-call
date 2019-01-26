@@ -11,22 +11,28 @@ namespace RagdollWakeUp.Forces {
             limbGroup = GetComponentGroup (
                 ComponentType.ReadOnly<InputAxii> (),
                 ComponentType.ReadOnly<LimbForceApplications> (),
-                typeof (Rigidbody)
+                ComponentType.ReadOnly<PlayerLimbs> ()
             );
         }
         protected override void OnUpdate () {
             var inputAxiiArray = limbGroup.GetComponentDataArray<InputAxii> ();
             var limbForceApplicationsArray = limbGroup.GetComponentDataArray<LimbForceApplications> ();
-            var rigidBodyArray = limbGroup.GetComponentArray<Rigidbody> ();
+            var rigidBodyArray = limbGroup.GetSharedComponentDataArray<PlayerLimbs> ();
+
             int N = inputAxiiArray.Length;
             for (int i = 0; i < N; i++) {
                 var axii = inputAxiiArray[i];
                 var forceMultiplier = limbForceApplicationsArray[i].ForceMultiplier;
+                var limbs = rigidBodyArray[i];
 
-                var forceVec = new Vector3 (axii.LeftJoyStick.x, axii.LeftJoyStick.y, 0);
-                forceVec *= forceMultiplier;
+                var leftForceVec = new Vector3 (axii.LeftJoyStick.x, axii.LeftJoyStick.y, 0);
+                var rightForceVec = new Vector3 (axii.RightJoyStick.x, axii.RightJoyStick.y, 0);
 
-                rigidBodyArray[i].AddForce (forceVec);
+                leftForceVec *= forceMultiplier;
+                rightForceVec *= forceMultiplier;
+
+                limbs.LeftLimb.AddForce (leftForceVec);
+                limbs.RightLimb.AddForce (rightForceVec);
             }
         }
     }
