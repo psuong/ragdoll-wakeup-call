@@ -1,22 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ManualRestartButton : MonoBehaviour {
-    [SerializeField] public string[] scenePaths = new string[] {
-        "Assets/Scenes/SampleScene.unity"
-    };
-    void Update () {
-        if (Input.GetKeyDown ("1")) {
+namespace RagdollWakeUp.Utilities {
 
-            SceneManager.LoadScene (scenePaths[0]);
-            Debug.Log ($"loading scene \"{scenePaths[0]}\"");
+    public class ManualRestartButton : MonoBehaviour {
 
-            for (int i = 1; i < scenePaths.Length; i++) {
+        public string[] scenePaths = new string[] {
+            "Assets/Scenes/SampleScene.unity"
+        };
 
-                SceneManager.LoadSceneAsync (scenePaths[i], LoadSceneMode.Additive);
-                Debug.Log ($"loading scene \"{scenePaths[i]}\"");
+        public KeyCode reloadButton = KeyCode.R;
+
+        private void Update () {
+            if (Input.GetKeyDown(reloadButton)) {
+                SceneManager.LoadScene (scenePaths[0]);
+#if UNITY_EDITOR
+                Debug.Log ($"Loading scene \"{scenePaths[0]}\"");
+#endif
+                for (int i = 1; i < scenePaths.Length; i++) {
+                    SceneManager.LoadSceneAsync (scenePaths[i], LoadSceneMode.Additive);
+#if UNITY_EDITOR
+                    Debug.Log ($"Loading scene \"{scenePaths[i]}\"");
+#endif
+                }
             }
         }
     }
