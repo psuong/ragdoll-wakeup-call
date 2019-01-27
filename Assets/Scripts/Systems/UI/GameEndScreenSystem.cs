@@ -1,7 +1,9 @@
 using RagdollWakeUp.GameStates;
 using RagdollWakeUp.GameStates.Systems;
+using RagdollWakeUp.Utilities;
 using Unity.Entities;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace RagdollWakeUp.UI.Systems {
 
@@ -11,7 +13,7 @@ namespace RagdollWakeUp.UI.Systems {
         private ComponentGroup uiGroup, gameStateGroup, uiGlobalGroup;
 
         protected override void OnCreateManager() {
-            gameStateGroup = GetComponentGroup(typeof(GameStateInstance), ComponentType.ReadOnly<EndMessageInstance>());
+            gameStateGroup = GetComponentGroup(typeof(GameStateInstance), ComponentType.ReadOnly<EndMessageInstance>(), typeof(ManualRestartInstance));
             uiGroup        = GetComponentGroup(typeof(ImageInstance), typeof(TextMeshProInstance), 
                 typeof(BackgroundColour));
         }
@@ -30,6 +32,7 @@ namespace RagdollWakeUp.UI.Systems {
             var texts       = uiGroup.GetSharedComponentDataArray<TextMeshProInstance>();
             var backgrounds = uiGroup.GetComponentDataArray<BackgroundColour>();
             var endMessages = gameStateGroup.GetSharedComponentDataArray<EndMessageInstance>();
+            var restartHelpers = gameStateGroup.GetSharedComponentDataArray<ManualRestartInstance>();
 
             for (int i = 0; i < images.Length; i++) {
                 var current    = gameStates[i].Value;
@@ -39,12 +42,18 @@ namespace RagdollWakeUp.UI.Systems {
                 var endMessage = endMessages[0];
 
                 if (current == GameState.Win) {
-                    text.text             = endMessage.Value;
-                    var orig              = backgrounds[0];
-                    orig.CurrentDuration += Time.deltaTime;
-                    backgrounds[0]        = orig;
-                    var t                 = orig.CurrentDuration / orig.FadeDuration;
-                    image.color           = Color.Lerp(orig.FadedIn, orig.FadedOut, t * background.Speed);
+
+                    text.text       = endMessage.Value;
+                    var orig        = backgrounds[0];
+                    var currentTime = orig.CurrentDuration += Time.deltaTime;
+                    backgrounds[0]  = orig;
+                    var t           = orig.CurrentDuration / orig.FadeDuration;
+                    image.color     = Color.Lerp(orig.FadedIn, orig.FadedOut, t * background.Speed);
+
+                    var helper = restartHelpers[0];
+                    if (currentTime >= background.FadeDuration + helper.Wait) {
+                        SceneManager.LoadSceneAsync(helper.SceneName, LoadSceneMode.Single);
+                    }
                 }
             }
         }
