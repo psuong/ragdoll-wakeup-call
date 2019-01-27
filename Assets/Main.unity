@@ -5294,7 +5294,7 @@ PrefabInstance:
     - target: {fileID: 8920880727892781329, guid: bb40c6db6113c417f9023c6df5a8db9c,
         type: 3}
       propertyPath: scenePaths.Array.data[0]
-      value: Assets/Scenes/Main.unity
+      value: Main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb40c6db6113c417f9023c6df5a8db9c, type: 3}
@@ -11484,7 +11484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    Value: 1.5
+    Value: 0.75
 --- !u!114 &1268857699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11499,7 +11499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Wait: 0
-    SceneName: Assets/Scenes/Main.unity
+    SceneName: Main
 --- !u!1 &1284974144
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenePaths:
-  - Assets/Scenes/SampleScene.unity
+  - Main
   reloadButton: 114
