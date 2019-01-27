@@ -6,11 +6,12 @@ namespace RagdollWakeUp.GameStates.Systems {
 
     public class IdleQueueReadySystem : ComponentSystem {
 
-        private ComponentGroup queueGroup, uiGroup;
+        private ComponentGroup queueGroup, uiGroup, sfxGroup;
 
         protected override void OnCreateManager() {
             queueGroup = GetComponentGroup(typeof(IdleStateQueueInstance), typeof(GameStateInstance));
             uiGroup = GetComponentGroup(typeof(ImageInstance), typeof(BackgroundColour), typeof(CanvasGroupInstance));
+            sfxGroup = GetComponentGroup(typeof(SFXManager));
         }
 
         protected override void OnUpdate() {
@@ -24,6 +25,8 @@ namespace RagdollWakeUp.GameStates.Systems {
                 return;
             }
 
+            var sfxManager = sfxGroup.GetComponentArray<SFXManager>();
+            
             var readyQueue = queue[0].Values;
 
             // Cheap hack, we only run the system when we're in the idle state.
@@ -46,6 +49,8 @@ namespace RagdollWakeUp.GameStates.Systems {
                     background.CurrentDuration = 0f;
                     backgrounds[0] = background;
                 }
+                
+                if (sfxManager.Length > 0) sfxManager[0].StartGame();
             }
         }
 
