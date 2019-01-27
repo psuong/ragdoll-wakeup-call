@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using RagdollWakeUp.Inputs;
+using RagdollWakeUp.Tags;
 using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
@@ -11,7 +12,8 @@ namespace RagdollWakeUp.Forces {
             limbGroup = GetComponentGroup (
                 ComponentType.ReadOnly<InputAxii> (),
                 ComponentType.ReadOnly<LimbForceApplications> (),
-                ComponentType.ReadOnly<PlayerLimbs> ()
+                ComponentType.ReadOnly<PlayerLimbs> (),
+                ComponentType.Subtractive<UseLocalLimbForce> ()
             );
         }
         protected override void OnUpdate () {
@@ -31,8 +33,12 @@ namespace RagdollWakeUp.Forces {
                 leftForceVec *= forceMultiplier;
                 rightForceVec *= forceMultiplier;
 
-                limbs.LeftLimb.AddForce (leftForceVec);
-                limbs.RightLimb.AddForce (rightForceVec);
+                if (limbs.LeftLimb != null) {
+                    limbs.LeftLimb?.AddForce (leftForceVec);
+                }
+
+                if (limbs.RightLimb != null)
+                    limbs.RightLimb?.AddForce (rightForceVec);
             }
         }
     }
