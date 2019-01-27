@@ -15,7 +15,7 @@ public class ManualRestartButton : MonoBehaviour {
 
             for (int i = 1; i < scenePaths.Length; i++) {
 
-                SceneManager.LoadSceneAsync (scenePaths[i]);
+                SceneManager.LoadSceneAsync (scenePaths[i], LoadSceneMode.Additive);
                 Debug.Log ($"loading scene \"{scenePaths[i]}\"");
             }
         }
