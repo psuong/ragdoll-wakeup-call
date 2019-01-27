@@ -9,17 +9,20 @@ namespace RagdollWakeUp.GameStates.Systems {
     /// </summary>
     public class IdleQueueSystem : ComponentSystem {
 
-        private ComponentGroup globalSettingsGroup;
+        private ComponentGroup globalSettingsGroup, imageGroup;
 
         protected override void OnCreateManager() {
             globalSettingsGroup = GetComponentGroup(typeof(GameStateInstance), 
                 typeof(PlayerDevicePoolInstance), typeof(IdleStateQueueInstance));
+            imageGroup = GetComponentGroup(typeof(ImageColoursInstance), typeof(TextsInstance));
         }
 
         protected override void OnUpdate() {
             var gameStates      = globalSettingsGroup.GetComponentDataArray<GameStateInstance>();
             var playerDevices   = globalSettingsGroup.GetSharedComponentDataArray<PlayerDevicePoolInstance>();
             var idleStateQueues = globalSettingsGroup.GetSharedComponentDataArray<IdleStateQueueInstance>();
+            var imageColours    = imageGroup.GetSharedComponentDataArray<ImageColoursInstance>();
+            var texts           = imageGroup.GetSharedComponentDataArray<TextsInstance>();
 
             if (gameStates.Length != 1 || playerDevices.Length != 1 || idleStateQueues.Length != 1) {
 #if UNITY_EDITOR
@@ -29,8 +32,10 @@ namespace RagdollWakeUp.GameStates.Systems {
                 return;
             }
 
-            var devices = playerDevices[0].Value.Devices;
-            var queue = idleStateQueues[0].Values;
+            var devices       = playerDevices[0].Value.Devices;
+            var queue         = idleStateQueues[0].Values;
+            var instance      = imageColours[0];
+            var readyMessages = texts[0].Values;
 
             for (int i = 0; i < devices.Length; i++) {
                 var currentDevice = devices[i];
@@ -39,6 +44,8 @@ namespace RagdollWakeUp.GameStates.Systems {
                 if (!queue[i] && gameStates[0].Value == GameState.Idle && 
                     currentDevice.Action1.WasPressed) {
                     queue[i] = true;
+                    instance.Images[i].color = instance.Values[i];
+                    readyMessages[i].text = "Ready!";
                 }
             }
         }

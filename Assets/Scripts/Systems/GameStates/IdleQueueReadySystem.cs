@@ -10,7 +10,7 @@ namespace RagdollWakeUp.GameStates.Systems {
 
         protected override void OnCreateManager() {
             queueGroup = GetComponentGroup(typeof(IdleStateQueueInstance), typeof(GameStateInstance));
-            uiGroup = GetComponentGroup(typeof(ImageInstance), typeof(BackgroundColour));
+            uiGroup = GetComponentGroup(typeof(ImageInstance), typeof(BackgroundColour), typeof(CanvasGroupInstance));
         }
 
         protected override void OnUpdate() {
@@ -28,15 +28,18 @@ namespace RagdollWakeUp.GameStates.Systems {
 
             // Cheap hack, we only run the system when we're in the idle state.
             if (gameStates[0].Value == GameState.Idle && IsEveryoneReady(ref readyQueue)) {
-                var backgrounds = uiGroup.GetComponentDataArray<BackgroundColour>();
-                var images      = uiGroup.GetSharedComponentDataArray<ImageInstance>();
-                var background  = backgrounds[0];
-                var image       = images[0].Value;
+                var backgrounds      = uiGroup.GetComponentDataArray<BackgroundColour>();
+                var images           = uiGroup.GetSharedComponentDataArray<ImageInstance>();
+                var canvases         = uiGroup.GetSharedComponentDataArray<CanvasGroupInstance>();
+                var background       = backgrounds[0];
+                var image            = images[0].Value;
+                var canvas           = canvases[0].Value;
 
                 background.CurrentDuration += Time.deltaTime;
                 var t                       = background.CurrentDuration / background.FadeDuration;
                 backgrounds[0]              = background;
                 image.color                 = Color.Lerp(background.FadedOut, background.FadedIn, t * background.Speed);
+                canvas.alpha                = 1 - t;
 
                 if (t >= 1) {
                     gameStates[0] = new GameStateInstance { Value = GameState.Gameplay };
