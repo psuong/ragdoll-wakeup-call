@@ -1,8 +1,6 @@
-﻿using System;
-using Unity.Collections;
+using System;
 using Unity.Entities;
 using Unity.Mathematics;
-using UnityEngine;
 
 namespace RagdollWakeUp.Inputs {
     /// <summary>
