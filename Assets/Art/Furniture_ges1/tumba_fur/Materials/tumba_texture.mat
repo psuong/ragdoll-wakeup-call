@@ -212,7 +212,7 @@ Material:
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 0
     - _MaterialID: 1
-    - _Metallic: 0
+    - _Metallic: 0.07
     - _Mode: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
@@ -230,7 +230,7 @@ Material:
     - _Shininess: 0.1376235
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
-    - _Smoothness: 0.256
+    - _Smoothness: 0.137
     - _SmoothnessRemapMax: 0.043
     - _SmoothnessRemapMin: 0
     - _SmoothnessTextureChannel: 0
@@ -265,7 +265,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.7075472, g: 0.33041117, b: 0.33041117, a: 1}
-    - _Color: {r: 0.7075472, g: 0.33041117, b: 0.33041117, a: 1}
+    - _Color: {r: 0.7075471, g: 0.33041114, b: 0.33041114, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}

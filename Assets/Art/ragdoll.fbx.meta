@@ -141,7 +141,22 @@ ModelImporter:
     13700000: female_casualsuit02Mesh
     13700002: high-polyMesh
     13700004: ragdollMesh
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_casualsuit02
+    second: {fileID: 2100000, guid: c5f4b93ec66073f488a19b9fa80b9889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: high-poly
+    second: {fileID: 2100000, guid: f6a2a881d23d1154a8a120dee6ae905a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ragdoll
+    second: {fileID: 2100000, guid: 12e80acaf09f079478d83643cdf0c9b3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
