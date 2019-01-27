@@ -194,6 +194,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &556439453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3724647072009491252, guid: cd6d52fb5f2c0cd48b10d6fbba738cb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3724647073352546638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &556439454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556439453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbff034806dd744539551bf634e4a5c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    Wait: 0
+    SceneName: Assets/Scenes/InputPlayground.unity
 --- !u!1 &771348002
 GameObject:
   m_ObjectHideFlags: 0
