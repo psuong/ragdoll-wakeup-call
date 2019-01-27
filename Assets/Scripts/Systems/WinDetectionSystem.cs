@@ -1,11 +1,11 @@
-using UnityEngine;
-using Unity.Transforms;
 using Unity.Entities;
 using Unity.Mathematics;
+using Unity.Transforms;
+using UnityEngine;
 
 namespace RagdollWakeUp.GameStates.Systems {
 
-    public class WinDetection : ComponentSystem {
+    public class WinDetectionSystem : ComponentSystem {
 
         private ComponentGroup positionsGroup, distanceGroup, gameStateGroup;
 
@@ -46,9 +46,7 @@ namespace RagdollWakeUp.GameStates.Systems {
 
             var current = positions[0].Value;
             var goal    = positions[1].Value;
-
-            current.y = 0;
-            goal.y = 0;
+            current.y = goal.y = 0;
 
             var distance = math.distance(current, goal);
 

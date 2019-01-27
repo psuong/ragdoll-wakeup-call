@@ -1,7 +1,7 @@
 using Unity.Entities;
 using UnityEngine.UI;
 
-namespace RagdollWakeUp.UI {
+namespace RagdollWakeUp {
 
     [System.Serializable]
     public struct ImageInstance : ISharedComponentData {
