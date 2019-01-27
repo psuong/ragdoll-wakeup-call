@@ -29,7 +29,7 @@ namespace RagdollWakeUp.UI.Systems {
             var images      = uiGroup.GetSharedComponentDataArray<ImageInstance>();
             var texts       = uiGroup.GetSharedComponentDataArray<TextMeshProInstance>();
             var backgrounds = uiGroup.GetComponentDataArray<BackgroundColour>();
-            var endMessages = uiGroup.GetSharedComponentDataArray<EndMessageInstance>();
+            var endMessages = gameStateGroup.GetSharedComponentDataArray<EndMessageInstance>();
 
             for (int i = 0; i < images.Length; i++) {
                 var current    = gameStates[i].Value;
@@ -39,17 +39,12 @@ namespace RagdollWakeUp.UI.Systems {
                 var endMessage = endMessages[0];
 
                 if (current == GameState.Win) {
-
                     text.text             = endMessage.Value;
                     var orig              = backgrounds[0];
                     orig.CurrentDuration += Time.deltaTime;
                     backgrounds[0]        = orig;
                     var t                 = orig.CurrentDuration / orig.FadeDuration;
-                    image.color           = Color.Lerp(orig.FadedOut, orig.FadedIn, t * background.Speed);
-                }
-
-                if (current == GameState.Gameplay) {
-                    image.color = background.FadedOut;
+                    image.color           = Color.Lerp(orig.FadedIn, orig.FadedOut, t * background.Speed);
                 }
             }
         }

@@ -24,8 +24,10 @@ namespace RagdollWakeUp.GameStates.Systems {
                 return;
             }
 
-            if (gameStates[0].Value == GameState.Idle) {
+            var readyQueue = queue[0].Values;
 
+            // Cheap hack, we only run the system when we're in the idle state.
+            if (gameStates[0].Value == GameState.Idle && IsEveryoneReady(ref readyQueue)) {
                 var backgrounds = uiGroup.GetComponentDataArray<BackgroundColour>();
                 var images      = uiGroup.GetSharedComponentDataArray<ImageInstance>();
                 var background  = backgrounds[0];
@@ -33,14 +35,23 @@ namespace RagdollWakeUp.GameStates.Systems {
 
                 background.CurrentDuration += Time.deltaTime;
                 var t                       = background.CurrentDuration / background.FadeDuration;
-                image.fillAmount            = t;
                 backgrounds[0]              = background;
+                image.color                 = Color.Lerp(background.FadedOut, background.FadedIn, t * background.Speed);
+
                 if (t >= 1) {
                     gameStates[0] = new GameStateInstance { Value = GameState.Gameplay };
                     background.CurrentDuration = 0f;
                     backgrounds[0] = background;
                 }
             }
+        }
+
+        private bool IsEveryoneReady(ref bool[] readyQueue) {
+            for (int i = 0; i < readyQueue.Length; i++) {
+                if (!readyQueue[i]) { return false; }
+            }
+
+            return true;
         }
     }
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3724647072009491250}
   - component: {fileID: 3724647072009491249}
   - component: {fileID: 1345546875}
+  - component: {fileID: 556439454}
   m_Layer: 0
   m_Name: Global Settings
   m_TagString: Untagged
@@ -101,3 +102,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedData:
     Value: Congratulations on starting your day!
+--- !u!114 &556439454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3724647072009491252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1924eb00d673f40ba92bb7bf348c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    Values: 00000000

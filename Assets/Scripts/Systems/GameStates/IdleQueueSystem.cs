@@ -34,7 +34,7 @@ namespace RagdollWakeUp.GameStates.Systems {
 
             for (int i = 0; i < devices.Length; i++) {
                 var currentDevice = devices[i];
-                
+
                 // Ready up the player when we're in the Idle state and the player has pressed the A button.
                 if (!queue[i] && gameStates[0].Value == GameState.Idle && 
                     currentDevice.Action1.WasPressed) {
