@@ -120,10 +120,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 3
+    value: 0.51
   color:
     overrideState: 1
-    value: {r: 0, g: 0, b: 0, a: 1}
+    value: {r: 0.04774832, g: 0.07537601, b: 0.3490566, a: 1}
   ambientOnly:
     overrideState: 1
     value: 1
@@ -138,10 +138,10 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 5.13
+    value: 4.38
   directLightingStrength:
     overrideState: 1
-    value: 0.204
+    value: 0.423
   radius:
     overrideState: 1
     value: 0.25
@@ -253,8 +253,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   colorFilter:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 1, g: 0.7477302, b: 0.6179246, a: 1}
   hueShift:
     overrideState: 0
     value: 0

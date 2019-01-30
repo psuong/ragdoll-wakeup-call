@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using RagdollWakeUp.Inputs;
 using RagdollWakeUp.Tags;
@@ -69,10 +69,10 @@ namespace RagdollWakeUp.Forces {
                     rightForceVec = R * rightForceVec;
                 }
 
-                if (limbs.LeftLimb != null)
+                if (limbs.LeftLimb != null && limbs.LeftLimb.transform.localPosition.y < 2f)
                     limbs.LeftLimb?.AddForce (leftForceVec);
 
-                if (limbs.RightLimb != null)
+                if (limbs.RightLimb != null && limbs.RightLimb.transform.localPosition.y < 2f)
                     limbs.RightLimb?.AddForce (rightForceVec);
             }
         }
