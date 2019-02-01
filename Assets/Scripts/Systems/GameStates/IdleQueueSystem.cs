@@ -32,6 +32,10 @@ namespace RagdollWakeUp.GameStates.Systems {
                 return;
             }
 
+            if (imageColours.Length < 1 || texts.Length < 1) {
+                return;
+            }
+
             var devices       = playerDevices[0].Value.Devices;
             var queue         = idleStateQueues[0].Values;
             var instance      = imageColours[0];
