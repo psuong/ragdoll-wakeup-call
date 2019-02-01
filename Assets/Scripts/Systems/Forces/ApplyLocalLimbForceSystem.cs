@@ -5,9 +5,13 @@ using RagdollWakeUp.Tags;
 using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
+
 namespace RagdollWakeUp.Forces {
+    [UpdateAfter (typeof (FixedUpdate))]
     public class ApplyLocalLimbForceSystem : ComponentSystem {
         private ComponentGroup limbGroup, chestGroup;
+        const int headChestIdNumber = 0;
         const int armIdNumber = 2;
         const int legIdNumber = 3;
         protected override void OnCreateManager () {
@@ -42,37 +46,59 @@ namespace RagdollWakeUp.Forces {
             var chestTransform = chestTransformArray[0].transform;
             var chestForward = chestTransform.forward;
             var chestUp = chestTransform.up;
-            var chestRight = chestTransform.up;
+            var chestRight = chestTransform.right;
 
             int N = inputAxiiArray.Length;
             for (int i = 0; i < N; i++) {
                 var axii = inputAxiiArray[i];
-                var forceMultiplier = limbForceApplicationsArray[i].ForceMultiplier;
+                var forceMultiplierL = limbForceApplicationsArray[i].ForceMultiplierL;
+                var forceMultiplierR = limbForceApplicationsArray[i].ForceMultiplierR;
                 var limbs = rigidBodyArray[i];
 
+                // these values will be overwritten...
                 var leftForceVec = new Vector3 (axii.LeftJoyStick.x, axii.LeftJoyStick.y, 0);
                 var rightForceVec = new Vector3 (axii.RightJoyStick.x, axii.RightJoyStick.y, 0);
-
-                leftForceVec *= forceMultiplier;
-                rightForceVec *= forceMultiplier;
+                leftForceVec *= forceMultiplierL;
+                rightForceVec *= forceMultiplierR;
+                var rightTorqueVec = Vector3.zero;
 
                 // Direction of force depends on what limb it is
-                if (idArray[i].Value == armIdNumber) { // Arms
-                    var left = RotateVectorAroundAxis (chestForward, chestUp, 90);
-                    var right = chestRight;
-                    leftForceVec = Quaternion.FromToRotation (new Vector3 (0, 0, 1), left) * leftForceVec;
-                    rightForceVec = Quaternion.FromToRotation (new Vector3 (0, 0, 1), right) * rightForceVec;
+                if (idArray[i].Value == headChestIdNumber) { // Head and chest (or just torso...)
+                    leftForceVec = axii.LeftJoyStick.x * chestRight + axii.LeftJoyStick.y * chestForward;
+                    leftForceVec *= forceMultiplierL;
+
+                    // rightTorqueVec = axii.RightJoyStick.x * forceMultiplierR;
+                    // rightTorqueVec *= forceMultiplierR;
+
+                } else if (idArray[i].Value == armIdNumber) { // Arms
+                    leftForceVec = axii.LeftJoyStick.x * chestForward + axii.LeftJoyStick.y * chestUp;
+                    rightForceVec = -axii.RightJoyStick.x * chestForward + axii.RightJoyStick.y * chestUp;
+                    leftForceVec *= forceMultiplierL;
+                    rightForceVec *= forceMultiplierR;
+
+                    if (leftForceVec.y < 0) leftForceVec.y *= 10;
+                    if (rightForceVec.y < 0) rightForceVec.y *= 10;
+
+                    // Debug.Log ($"Forward:{chestForward} Up:{chestUp} Left:{left} Right:{right} LeftForce:{leftForceVec} RightForce:{rightForceVec}");
+
                 } else if (idArray[i].Value == legIdNumber) { // Legs
-                    var down = RotateVectorAroundAxis (chestForward, chestRight, -90);
-                    var R = Quaternion.FromToRotation (new Vector3 (0, 0, 1), down);
-                    leftForceVec = R * leftForceVec;
-                    rightForceVec = R * rightForceVec;
+                    var down = -chestUp;
+                    leftForceVec = axii.LeftJoyStick.x * chestRight + axii.LeftJoyStick.y * chestForward;
+                    rightForceVec = axii.RightJoyStick.x * chestRight + axii.RightJoyStick.y * chestForward;
+                    leftForceVec *= forceMultiplierL;
+                    rightForceVec *= forceMultiplierR;
+
+                    if (leftForceVec.y < 0) leftForceVec.y *= 10;
+                    if (rightForceVec.y < 0) rightForceVec.y *= 10;
                 }
 
                 if (limbs.LeftLimb != null && limbs.LeftLimb.transform.localPosition.y < 2f)
                     limbs.LeftLimb?.AddForce (leftForceVec);
 
-                if (limbs.RightLimb != null && limbs.RightLimb.transform.localPosition.y < 2f)
+                if (idArray[i].Value == headChestIdNumber) { // Apply "torque" on the chest by adding force at an offset
+                    limbs.RightLimb?.AddTorque (chestUp * axii.RightJoyStick.x * forceMultiplierR);
+
+                } else if (limbs.RightLimb != null && limbs.RightLimb.transform.localPosition.y < 2f)
                     limbs.RightLimb?.AddForce (rightForceVec);
             }
         }
