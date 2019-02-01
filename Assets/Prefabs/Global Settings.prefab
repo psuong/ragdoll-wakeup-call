@@ -104,7 +104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    Value: Congratulations on starting your day!
+    Value: 'Congratulations on starting your day!
+
+      Time: {0} minute(s), {1} second(s)'
 --- !u!114 &556439454
 MonoBehaviour:
   m_ObjectHideFlags: 0
