@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 556439454}
   - component: {fileID: 1268857698}
   - component: {fileID: 1268857699}
+  - component: {fileID: 6825318626377420859}
   m_Layer: 0
   m_Name: Global Settings
   m_TagString: Untagged
@@ -103,7 +104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    Value: Congratulations on starting your day!
+    Value: 'Congratulations on starting your day!
+
+      Time: {0} minute(s), {1} second(s)'
 --- !u!114 &556439454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,3 +150,17 @@ MonoBehaviour:
   m_SerializedData:
     Wait: 0
     SceneName: Main
+--- !u!114 &6825318626377420859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3724647072009491252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156ccd19d8f1f6141a48b53516172f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    Value: 0
