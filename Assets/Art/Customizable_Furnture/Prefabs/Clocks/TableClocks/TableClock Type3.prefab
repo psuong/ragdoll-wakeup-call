@@ -1615,7 +1615,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 425114}
-  - component: {fileID: 11405664}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -1639,25 +1638,6 @@ Transform:
   m_Father: {fileID: 452306}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11405664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11455418}
-  units: {fileID: 11426376}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &103732
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,7 +2854,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467032}
-  - component: {fileID: 11495496}
   m_Layer: 0
   m_Name: LED Purple Numbers
   m_TagString: Untagged
@@ -2907,32 +2886,6 @@ Transform:
   m_Father: {fileID: 416848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11495496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 106834}
-  - {fileID: 133728}
-  - {fileID: 134008}
-  - {fileID: 190114}
-  - {fileID: 143136}
-  - {fileID: 178160}
-  - {fileID: 165602}
-  - {fileID: 130262}
-  - {fileID: 124068}
-  - {fileID: 182124}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &106126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3637,7 +3590,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465590}
-  - component: {fileID: 11431954}
   m_Layer: 0
   m_Name: DigitalClock5_LED
   m_TagString: Untagged
@@ -3662,24 +3614,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11431954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11400762}
-  minutesDCV: {fileID: 11445934}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11470482}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &108184
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,7 +3793,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416940}
-  - component: {fileID: 11414348}
   m_Layer: 0
   m_Name: LED Orange Point
   m_TagString: Untagged
@@ -3883,24 +3816,6 @@ Transform:
   m_Father: {fileID: 433712}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11414348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 178898}
-  - {fileID: 172338}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &108546
 GameObject:
   m_ObjectHideFlags: 0
@@ -4157,7 +4072,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423596}
-  - component: {fileID: 11445934}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -4181,25 +4095,6 @@ Transform:
   m_Father: {fileID: 465590}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11445934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11400762}
-  tens: {fileID: 11438302}
-  units: {fileID: 11480694}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &108848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5444,7 +5339,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419338}
-  - component: {fileID: 11400762}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -5468,25 +5362,6 @@ Transform:
   m_Father: {fileID: 465590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11400762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11457356}
-  units: {fileID: 11411174}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &110776
 GameObject:
   m_ObjectHideFlags: 0
@@ -6838,7 +6713,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 450182}
-  - component: {fileID: 11496074}
   m_Layer: 0
   m_Name: LED Red Point
   m_TagString: Untagged
@@ -6862,24 +6736,6 @@ Transform:
   m_Father: {fileID: 425352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11496074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 124302}
-  - {fileID: 162944}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &114024
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,7 +6745,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404992}
-  - component: {fileID: 11490470}
   m_Layer: 0
   m_Name: LED Yellow Point
   m_TagString: Untagged
@@ -6913,24 +6768,6 @@ Transform:
   m_Father: {fileID: 420100}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11490470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 128910}
-  - {fileID: 146884}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &114102
 GameObject:
   m_ObjectHideFlags: 0
@@ -7542,7 +7379,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447876}
-  - component: {fileID: 11483290}
   m_Layer: 0
   m_Name: LED Yellow Numbers
   m_TagString: Untagged
@@ -7575,32 +7411,6 @@ Transform:
   m_Father: {fileID: 408428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11483290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 111858}
-  - {fileID: 103558}
-  - {fileID: 194672}
-  - {fileID: 100080}
-  - {fileID: 139484}
-  - {fileID: 112284}
-  - {fileID: 126546}
-  - {fileID: 130542}
-  - {fileID: 119262}
-  - {fileID: 118472}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &115512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7998,7 +7808,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482202}
-  - component: {fileID: 11484188}
   m_Layer: 0
   m_Name: LED Purple Numbers
   m_TagString: Untagged
@@ -8031,32 +7840,6 @@ Transform:
   m_Father: {fileID: 451664}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11484188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 119248}
-  - {fileID: 138438}
-  - {fileID: 170122}
-  - {fileID: 127904}
-  - {fileID: 100456}
-  - {fileID: 155678}
-  - {fileID: 173972}
-  - {fileID: 112740}
-  - {fileID: 128196}
-  - {fileID: 137264}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &116018
 GameObject:
   m_ObjectHideFlags: 0
@@ -10118,7 +9901,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436068}
-  - component: {fileID: 11487094}
   m_Layer: 0
   m_Name: LED Cyan Numbers
   m_TagString: Untagged
@@ -10151,32 +9933,6 @@ Transform:
   m_Father: {fileID: 435028}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11487094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 105820}
-  - {fileID: 144550}
-  - {fileID: 165774}
-  - {fileID: 157154}
-  - {fileID: 142826}
-  - {fileID: 115170}
-  - {fileID: 107134}
-  - {fileID: 166040}
-  - {fileID: 117264}
-  - {fileID: 142208}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &119352
 GameObject:
   m_ObjectHideFlags: 0
@@ -11036,7 +10792,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408428}
-  - component: {fileID: 11438606}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -11060,25 +10815,6 @@ Transform:
   m_Father: {fileID: 468028}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11438606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11416932}
-  tens: {fileID: 11483290}
-  units: {fileID: 11458058}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &120762
 GameObject:
   m_ObjectHideFlags: 0
@@ -11088,7 +10824,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420396}
-  - component: {fileID: 11480694}
   m_Layer: 0
   m_Name: LED Red Numbers
   m_TagString: Untagged
@@ -11121,32 +10856,6 @@ Transform:
   m_Father: {fileID: 423596}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11480694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 199652}
-  - {fileID: 115740}
-  - {fileID: 167210}
-  - {fileID: 155560}
-  - {fileID: 166720}
-  - {fileID: 189442}
-  - {fileID: 198920}
-  - {fileID: 114204}
-  - {fileID: 162452}
-  - {fileID: 173710}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &120790
 GameObject:
   m_ObjectHideFlags: 0
@@ -11265,7 +10974,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 413834}
-  - component: {fileID: 11455418}
   m_Layer: 0
   m_Name: LED DarkPuple Numbers
   m_TagString: Untagged
@@ -11298,32 +11006,6 @@ Transform:
   m_Father: {fileID: 425114}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11455418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 100004}
-  - {fileID: 197272}
-  - {fileID: 127634}
-  - {fileID: 120000}
-  - {fileID: 198148}
-  - {fileID: 130968}
-  - {fileID: 141072}
-  - {fileID: 176280}
-  - {fileID: 164980}
-  - {fileID: 124986}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &121036
 GameObject:
   m_ObjectHideFlags: 0
@@ -12336,7 +12018,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426092}
-  - component: {fileID: 11409666}
   m_Layer: 0
   m_Name: LED DarkPuple Numbers
   m_TagString: Untagged
@@ -12369,32 +12050,6 @@ Transform:
   m_Father: {fileID: 441596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11409666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 122952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 110594}
-  - {fileID: 169036}
-  - {fileID: 104226}
-  - {fileID: 127654}
-  - {fileID: 155970}
-  - {fileID: 130988}
-  - {fileID: 182644}
-  - {fileID: 135742}
-  - {fileID: 160236}
-  - {fileID: 192078}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &123006
 GameObject:
   m_ObjectHideFlags: 0
@@ -13580,7 +13235,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492724}
-  - component: {fileID: 11480490}
   m_Layer: 0
   m_Name: LED Purple Point
   m_TagString: Untagged
@@ -13604,24 +13258,6 @@ Transform:
   m_Father: {fileID: 453750}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11480490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 115612}
-  - {fileID: 164022}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &125572
 GameObject:
   m_ObjectHideFlags: 0
@@ -14540,7 +14176,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429234}
-  - component: {fileID: 11427286}
   m_Layer: 0
   m_Name: Select Metal Atlas
   m_TagString: Untagged
@@ -14570,30 +14205,6 @@ Transform:
   m_Father: {fileID: 424074}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11427286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 124628}
-  - {fileID: 107820}
-  - {fileID: 183400}
-  - {fileID: 106850}
-  - {fileID: 161882}
-  - {fileID: 114338}
-  - {fileID: 117540}
-  - {fileID: 195622}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &127118
 GameObject:
   m_ObjectHideFlags: 0
@@ -14912,7 +14523,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432260}
-  - component: {fileID: 11459886}
   m_Layer: 0
   m_Name: DigitalClock6_LED
   m_TagString: Untagged
@@ -14937,24 +14547,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11459886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11438280}
-  minutesDCV: {fileID: 11422626}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11475938}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &127904
 GameObject:
   m_ObjectHideFlags: 0
@@ -15058,7 +14650,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439592}
-  - component: {fileID: 11452650}
   m_Layer: 0
   m_Name: LED Orange Numbers
   m_TagString: Untagged
@@ -15091,32 +14682,6 @@ Transform:
   m_Father: {fileID: 439752}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11452650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 139588}
-  - {fileID: 152184}
-  - {fileID: 140684}
-  - {fileID: 125294}
-  - {fileID: 116224}
-  - {fileID: 174200}
-  - {fileID: 190994}
-  - {fileID: 164260}
-  - {fileID: 167286}
-  - {fileID: 131050}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &128146
 GameObject:
   m_ObjectHideFlags: 0
@@ -17411,7 +16976,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 494134}
-  - component: {fileID: 11437640}
   m_Layer: 0
   m_Name: LED Blue Numbers
   m_TagString: Untagged
@@ -17444,32 +17008,6 @@ Transform:
   m_Father: {fileID: 477500}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11437640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 144580}
-  - {fileID: 172830}
-  - {fileID: 115564}
-  - {fileID: 116288}
-  - {fileID: 121600}
-  - {fileID: 149726}
-  - {fileID: 111070}
-  - {fileID: 128584}
-  - {fileID: 196916}
-  - {fileID: 183990}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &131038
 GameObject:
   m_ObjectHideFlags: 0
@@ -17664,7 +17202,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 464026}
-  - component: {fileID: 11415128}
   m_Layer: 0
   m_Name: LED Blue Numbers
   m_TagString: Untagged
@@ -17697,32 +17234,6 @@ Transform:
   m_Father: {fileID: 477500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11415128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 187926}
-  - {fileID: 127366}
-  - {fileID: 164020}
-  - {fileID: 120448}
-  - {fileID: 176724}
-  - {fileID: 145746}
-  - {fileID: 185318}
-  - {fileID: 155464}
-  - {fileID: 130558}
-  - {fileID: 168674}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &131200
 GameObject:
   m_ObjectHideFlags: 0
@@ -20416,7 +19927,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429152}
-  - component: {fileID: 11438302}
   m_Layer: 0
   m_Name: LED Red Numbers
   m_TagString: Untagged
@@ -20449,32 +19959,6 @@ Transform:
   m_Father: {fileID: 423596}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11438302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 129350}
-  - {fileID: 170550}
-  - {fileID: 134564}
-  - {fileID: 192240}
-  - {fileID: 124744}
-  - {fileID: 110028}
-  - {fileID: 198928}
-  - {fileID: 189344}
-  - {fileID: 103986}
-  - {fileID: 128894}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &135982
 GameObject:
   m_ObjectHideFlags: 0
@@ -20776,7 +20260,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474770}
-  - component: {fileID: 11450496}
   m_Layer: 0
   m_Name: LED Yellow Numbers
   m_TagString: Untagged
@@ -20809,32 +20292,6 @@ Transform:
   m_Father: {fileID: 449240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11450496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 116720}
-  - {fileID: 163844}
-  - {fileID: 194012}
-  - {fileID: 135312}
-  - {fileID: 198264}
-  - {fileID: 162824}
-  - {fileID: 198152}
-  - {fileID: 162966}
-  - {fileID: 186374}
-  - {fileID: 158246}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &136754
 GameObject:
   m_ObjectHideFlags: 0
@@ -21168,7 +20625,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436818}
-  - component: {fileID: 11450106}
   m_Layer: 0
   m_Name: LED Blue Numbers
   m_TagString: Untagged
@@ -21201,32 +20657,6 @@ Transform:
   m_Father: {fileID: 471932}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11450106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 197296}
-  - {fileID: 141362}
-  - {fileID: 151284}
-  - {fileID: 196436}
-  - {fileID: 109088}
-  - {fileID: 174080}
-  - {fileID: 134628}
-  - {fileID: 193498}
-  - {fileID: 151482}
-  - {fileID: 158500}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &137492
 GameObject:
   m_ObjectHideFlags: 0
@@ -21807,7 +21237,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492470}
-  - component: {fileID: 11477460}
   m_Layer: 0
   m_Name: LED Orange Numbers
   m_TagString: Untagged
@@ -21840,32 +21269,6 @@ Transform:
   m_Father: {fileID: 445334}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11477460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 164620}
-  - {fileID: 144082}
-  - {fileID: 123150}
-  - {fileID: 167252}
-  - {fileID: 165288}
-  - {fileID: 170374}
-  - {fileID: 184890}
-  - {fileID: 191362}
-  - {fileID: 158906}
-  - {fileID: 180530}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &139120
 GameObject:
   m_ObjectHideFlags: 0
@@ -22369,7 +21772,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 413848}
-  - component: {fileID: 11410776}
   m_Layer: 0
   m_Name: DigitalClock4_LED
   m_TagString: Untagged
@@ -22394,24 +21796,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11410776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11448192}
-  minutesDCV: {fileID: 11498852}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11494234}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &140154
 GameObject:
   m_ObjectHideFlags: 0
@@ -23315,7 +22699,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 448312}
-  - component: {fileID: 11461892}
   m_Layer: 0
   m_Name: LED DarkPurple Point
   m_TagString: Untagged
@@ -23339,24 +22722,6 @@ Transform:
   m_Father: {fileID: 463384}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11461892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 115790}
-  - {fileID: 160418}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &141286
 GameObject:
   m_ObjectHideFlags: 0
@@ -23504,7 +22869,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 407728}
-  - component: {fileID: 11495262}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -23528,25 +22892,6 @@ Transform:
   m_Father: {fileID: 499670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11495262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11405322}
-  tens: {fileID: 11467238}
-  units: {fileID: 11469964}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &141362
 GameObject:
   m_ObjectHideFlags: 0
@@ -23834,7 +23179,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 454876}
-  - component: {fileID: 11405738}
   m_Layer: 0
   m_Name: LED DarkPuple Numbers
   m_TagString: Untagged
@@ -23867,32 +23211,6 @@ Transform:
   m_Father: {fileID: 441596}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11405738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 154168}
-  - {fileID: 154270}
-  - {fileID: 130276}
-  - {fileID: 184764}
-  - {fileID: 175506}
-  - {fileID: 148016}
-  - {fileID: 172602}
-  - {fileID: 135626}
-  - {fileID: 155892}
-  - {fileID: 142732}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &142732
 GameObject:
   m_ObjectHideFlags: 0
@@ -23995,7 +23313,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 453750}
-  - component: {fileID: 11494234}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -24019,25 +23336,6 @@ Transform:
   m_Father: {fileID: 413848}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11494234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11480490}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &143136
 GameObject:
   m_ObjectHideFlags: 0
@@ -24386,7 +23684,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441390}
-  - component: {fileID: 11458058}
   m_Layer: 0
   m_Name: LED Yellow Numbers
   m_TagString: Untagged
@@ -24419,32 +23716,6 @@ Transform:
   m_Father: {fileID: 408428}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11458058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143356}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 190026}
-  - {fileID: 137288}
-  - {fileID: 163794}
-  - {fileID: 130622}
-  - {fileID: 114554}
-  - {fileID: 149236}
-  - {fileID: 171230}
-  - {fileID: 186976}
-  - {fileID: 167034}
-  - {fileID: 175840}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &143438
 GameObject:
   m_ObjectHideFlags: 0
@@ -25335,7 +24606,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499670}
-  - component: {fileID: 11425954}
   m_Layer: 0
   m_Name: DigitalClock7_LED
   m_TagString: Untagged
@@ -25360,24 +24630,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11425954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11405322}
-  minutesDCV: {fileID: 11495262}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11412170}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &145358
 GameObject:
   m_ObjectHideFlags: 0
@@ -25387,8 +24639,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417878}
-  - component: {fileID: 11418356}
-  - component: {fileID: 11406532}
   m_Layer: 0
   m_Name: TableClock Type3
   m_TagString: Untagged
@@ -25413,49 +24663,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11418356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da66153f22c16b54f9c25bad691ef058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displaySelectedObject:
-  - {fileID: 11466712}
-  - {fileID: 11404006}
-  - {fileID: 11418778}
-  - {fileID: 11436734}
-  - {fileID: 11409694}
-  - {fileID: 11467208}
-  - {fileID: 11496740}
-  - {fileID: 11404402}
-  displayFrame: []
-  blindsOpenValue: 0
-  furnitureTextures: {fileID: 0}
-  GlobalOptionsDisplaySaveVar: {fileID: 0}
---- !u!114 &11406532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7961a963e9940a44b4f5cf35ce83696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialHoursValue: 0
-  initialMinutesValue: 0
-  initialSecondsValue: 0
-  clockSpeed: 1
-  pointFlicker: 1
-  reverse: 0
 --- !u!1 &145486
 GameObject:
   m_ObjectHideFlags: 0
@@ -25465,7 +24672,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431964}
-  - component: {fileID: 11404006}
   m_Layer: 0
   m_Name: Select Wood Atlas
   m_TagString: Untagged
@@ -25495,30 +24701,6 @@ Transform:
   m_Father: {fileID: 424074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11404006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 131482}
-  - {fileID: 100394}
-  - {fileID: 107476}
-  - {fileID: 115164}
-  - {fileID: 156596}
-  - {fileID: 197838}
-  - {fileID: 102628}
-  - {fileID: 118532}
-  currentDisplay: 3
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &145522
 GameObject:
   m_ObjectHideFlags: 0
@@ -27549,7 +26731,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493524}
-  - component: {fileID: 11457356}
   m_Layer: 0
   m_Name: LED Red Numbers
   m_TagString: Untagged
@@ -27582,32 +26763,6 @@ Transform:
   m_Father: {fileID: 419338}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11457356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 128442}
-  - {fileID: 101502}
-  - {fileID: 147656}
-  - {fileID: 168102}
-  - {fileID: 125832}
-  - {fileID: 149262}
-  - {fileID: 143956}
-  - {fileID: 151928}
-  - {fileID: 103216}
-  - {fileID: 140800}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &150596
 GameObject:
   m_ObjectHideFlags: 0
@@ -27771,7 +26926,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445334}
-  - component: {fileID: 11441058}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -27795,25 +26949,6 @@ Transform:
   m_Father: {fileID: 460936}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11441058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11476654}
-  tens: {fileID: 11439568}
-  units: {fileID: 11477460}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &151250
 GameObject:
   m_ObjectHideFlags: 0
@@ -28178,7 +27313,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400518}
-  - component: {fileID: 11406164}
   m_Layer: 0
   m_Name: LED Yellow Numbers
   m_TagString: Untagged
@@ -28211,32 +27345,6 @@ Transform:
   m_Father: {fileID: 449240}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11406164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 142396}
-  - {fileID: 164886}
-  - {fileID: 119352}
-  - {fileID: 174536}
-  - {fileID: 180108}
-  - {fileID: 144682}
-  - {fileID: 155350}
-  - {fileID: 122520}
-  - {fileID: 108730}
-  - {fileID: 127102}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &151922
 GameObject:
   m_ObjectHideFlags: 0
@@ -28894,7 +28002,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431734}
-  - component: {fileID: 11426376}
   m_Layer: 0
   m_Name: LED DarkPuple Numbers
   m_TagString: Untagged
@@ -28927,32 +28034,6 @@ Transform:
   m_Father: {fileID: 425114}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11426376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 152846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 187708}
-  - {fileID: 181122}
-  - {fileID: 165174}
-  - {fileID: 107018}
-  - {fileID: 110600}
-  - {fileID: 135258}
-  - {fileID: 195722}
-  - {fileID: 139830}
-  - {fileID: 161596}
-  - {fileID: 115722}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &153202
 GameObject:
   m_ObjectHideFlags: 0
@@ -29039,7 +28120,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 451664}
-  - component: {fileID: 11498852}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -29063,25 +28143,6 @@ Transform:
   m_Father: {fileID: 413848}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11498852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11448192}
-  tens: {fileID: 11484188}
-  units: {fileID: 11488284}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &153304
 GameObject:
   m_ObjectHideFlags: 0
@@ -29800,7 +28861,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 453146}
-  - component: {fileID: 11436734}
   m_Layer: 0
   m_Name: LED Green Numbers
   m_TagString: Untagged
@@ -29833,32 +28893,6 @@ Transform:
   m_Father: {fileID: 485198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11436734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 165432}
-  - {fileID: 128364}
-  - {fileID: 123826}
-  - {fileID: 180362}
-  - {fileID: 174082}
-  - {fileID: 165446}
-  - {fileID: 120360}
-  - {fileID: 131690}
-  - {fileID: 175764}
-  - {fileID: 118568}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &154594
 GameObject:
   m_ObjectHideFlags: 0
@@ -30115,7 +29149,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404836}
-  - component: {fileID: 11409694}
   m_Layer: 0
   m_Name: LED Green Numbers
   m_TagString: Untagged
@@ -30148,32 +29181,6 @@ Transform:
   m_Father: {fileID: 485198}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11409694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 120330}
-  - {fileID: 150022}
-  - {fileID: 144618}
-  - {fileID: 180508}
-  - {fileID: 184762}
-  - {fileID: 152568}
-  - {fileID: 107712}
-  - {fileID: 188440}
-  - {fileID: 152004}
-  - {fileID: 154924}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &155252
 GameObject:
   m_ObjectHideFlags: 0
@@ -31063,7 +30070,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 435028}
-  - component: {fileID: 11405322}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -31087,25 +30093,6 @@ Transform:
   m_Father: {fileID: 499670}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11405322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11487094}
-  units: {fileID: 11446696}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &156924
 GameObject:
   m_ObjectHideFlags: 0
@@ -33473,7 +32460,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452306}
-  - component: {fileID: 11459188}
   m_Layer: 0
   m_Name: DigitalClock8_LED
   m_TagString: Untagged
@@ -33498,24 +32484,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11459188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11405664}
-  minutesDCV: {fileID: 11456076}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11498014}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &162126
 GameObject:
   m_ObjectHideFlags: 0
@@ -33525,7 +32493,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 424074}
-  - component: {fileID: 11466712}
   m_Layer: 0
   m_Name: material select SWITCH
   m_TagString: Untagged
@@ -33551,26 +32518,6 @@ Transform:
   m_Father: {fileID: 417878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11466712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 145486}
-  - {fileID: 194738}
-  - {fileID: 127116}
-  - {fileID: 199070}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &162144
 GameObject:
   m_ObjectHideFlags: 0
@@ -34104,7 +33051,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438736}
-  - component: {fileID: 11466278}
   m_Layer: 0
   m_Name: LED Purple Numbers
   m_TagString: Untagged
@@ -34137,32 +33083,6 @@ Transform:
   m_Father: {fileID: 416848}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11466278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 164002}
-  - {fileID: 129610}
-  - {fileID: 139954}
-  - {fileID: 151614}
-  - {fileID: 112698}
-  - {fileID: 124180}
-  - {fileID: 106918}
-  - {fileID: 156158}
-  - {fileID: 143438}
-  - {fileID: 145780}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &162690
 GameObject:
   m_ObjectHideFlags: 0
@@ -34834,7 +33754,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 461382}
-  - component: {fileID: 11448518}
   m_Layer: 0
   m_Name: LED Cyan Point
   m_TagString: Untagged
@@ -34858,24 +33777,6 @@ Transform:
   m_Father: {fileID: 493908}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11448518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 127922}
-  - {fileID: 126052}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &163794
 GameObject:
   m_ObjectHideFlags: 0
@@ -35147,7 +34048,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 435946}
-  - component: {fileID: 11446696}
   m_Layer: 0
   m_Name: LED Cyan Numbers
   m_TagString: Untagged
@@ -35180,32 +34080,6 @@ Transform:
   m_Father: {fileID: 435028}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11446696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 136550}
-  - {fileID: 162726}
-  - {fileID: 154594}
-  - {fileID: 146924}
-  - {fileID: 135138}
-  - {fileID: 143872}
-  - {fileID: 119626}
-  - {fileID: 144692}
-  - {fileID: 195502}
-  - {fileID: 147452}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &164246
 GameObject:
   m_ObjectHideFlags: 0
@@ -35508,7 +34382,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482752}
-  - component: {fileID: 11439568}
   m_Layer: 0
   m_Name: LED Orange Numbers
   m_TagString: Untagged
@@ -35541,32 +34414,6 @@ Transform:
   m_Father: {fileID: 445334}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11439568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 148612}
-  - {fileID: 122624}
-  - {fileID: 128146}
-  - {fileID: 195254}
-  - {fileID: 188664}
-  - {fileID: 129226}
-  - {fileID: 156442}
-  - {fileID: 118578}
-  - {fileID: 183372}
-  - {fileID: 127924}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &164886
 GameObject:
   m_ObjectHideFlags: 0
@@ -36008,7 +34855,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470214}
-  - component: {fileID: 11435586}
   m_Layer: 0
   m_Name: LED Orange Numbers
   m_TagString: Untagged
@@ -36041,32 +34887,6 @@ Transform:
   m_Father: {fileID: 439752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11435586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 125174}
-  - {fileID: 146440}
-  - {fileID: 157836}
-  - {fileID: 122442}
-  - {fileID: 120612}
-  - {fileID: 167370}
-  - {fileID: 161508}
-  - {fileID: 102408}
-  - {fileID: 108184}
-  - {fileID: 128710}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &165432
 GameObject:
   m_ObjectHideFlags: 0
@@ -36617,7 +35437,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417048}
-  - component: {fileID: 11467238}
   m_Layer: 0
   m_Name: LED Cyan Numbers
   m_TagString: Untagged
@@ -36650,32 +35469,6 @@ Transform:
   m_Father: {fileID: 407728}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11467238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 118502}
-  - {fileID: 125966}
-  - {fileID: 157628}
-  - {fileID: 127300}
-  - {fileID: 176176}
-  - {fileID: 169892}
-  - {fileID: 138514}
-  - {fileID: 135376}
-  - {fileID: 157744}
-  - {fileID: 105862}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &167210
 GameObject:
   m_ObjectHideFlags: 0
@@ -37566,7 +36359,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 498888}
-  - component: {fileID: 11488284}
   m_Layer: 0
   m_Name: LED Purple Numbers
   m_TagString: Untagged
@@ -37599,32 +36391,6 @@ Transform:
   m_Father: {fileID: 451664}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11488284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 186948}
-  - {fileID: 108462}
-  - {fileID: 122508}
-  - {fileID: 141326}
-  - {fileID: 171266}
-  - {fileID: 186898}
-  - {fileID: 162518}
-  - {fileID: 146706}
-  - {fileID: 179544}
-  - {fileID: 157324}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &169064
 GameObject:
   m_ObjectHideFlags: 0
@@ -37665,7 +36431,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 425352}
-  - component: {fileID: 11470482}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -37689,25 +36454,6 @@ Transform:
   m_Father: {fileID: 465590}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11470482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11496074}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &169366
 GameObject:
   m_ObjectHideFlags: 0
@@ -37748,7 +36494,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420100}
-  - component: {fileID: 11480708}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -37772,25 +36517,6 @@ Transform:
   m_Father: {fileID: 468028}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11480708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11490470}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &169830
 GameObject:
   m_ObjectHideFlags: 0
@@ -38325,7 +37051,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 485198}
-  - component: {fileID: 11494972}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -38349,25 +37074,6 @@ Transform:
   m_Father: {fileID: 449090}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11494972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11436734}
-  units: {fileID: 11409694}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &171174
 GameObject:
   m_ObjectHideFlags: 0
@@ -38778,7 +37484,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 455112}
-  - component: {fileID: 11492354}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -38802,25 +37507,6 @@ Transform:
   m_Father: {fileID: 449090}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11492354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11404402}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &171958
 GameObject:
   m_ObjectHideFlags: 0
@@ -39323,7 +38009,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452304}
-  - component: {fileID: 11467208}
   m_Layer: 0
   m_Name: LED Green Numbers
   m_TagString: Untagged
@@ -39356,32 +38041,6 @@ Transform:
   m_Father: {fileID: 404358}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11467208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 172978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 183052}
-  - {fileID: 166898}
-  - {fileID: 147672}
-  - {fileID: 127770}
-  - {fileID: 160476}
-  - {fileID: 133250}
-  - {fileID: 183568}
-  - {fileID: 111584}
-  - {fileID: 104050}
-  - {fileID: 148420}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &173054
 GameObject:
   m_ObjectHideFlags: 0
@@ -39746,7 +38405,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479190}
-  - component: {fileID: 11469964}
   m_Layer: 0
   m_Name: LED Cyan Numbers
   m_TagString: Untagged
@@ -39779,32 +38437,6 @@ Transform:
   m_Father: {fileID: 407728}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11469964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 124038}
-  - {fileID: 163902}
-  - {fileID: 160812}
-  - {fileID: 109178}
-  - {fileID: 173054}
-  - {fileID: 106226}
-  - {fileID: 168996}
-  - {fileID: 103732}
-  - {fileID: 192430}
-  - {fileID: 171218}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &174068
 GameObject:
   m_ObjectHideFlags: 0
@@ -39984,7 +38616,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 460936}
-  - component: {fileID: 11462598}
   m_Layer: 0
   m_Name: DigitalClock3_LED
   m_TagString: Untagged
@@ -40009,24 +38640,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11462598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11476654}
-  minutesDCV: {fileID: 11441058}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11458420}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &174536
 GameObject:
   m_ObjectHideFlags: 0
@@ -40067,7 +38680,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419054}
-  - component: {fileID: 11404402}
   m_Layer: 0
   m_Name: LED Green Point
   m_TagString: Untagged
@@ -40091,24 +38703,6 @@ Transform:
   m_Father: {fileID: 455112}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11404402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 144706}
-  - {fileID: 141286}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &174832
 GameObject:
   m_ObjectHideFlags: 0
@@ -40581,7 +39175,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 449090}
-  - component: {fileID: 11418474}
   m_Layer: 0
   m_Name: DigitalClock1_LED
   m_TagString: Untagged
@@ -40606,24 +39199,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11418474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11494972}
-  minutesDCV: {fileID: 11469084}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11492354}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &176110
 GameObject:
   m_ObjectHideFlags: 0
@@ -40726,7 +39301,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433712}
-  - component: {fileID: 11458420}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -40750,25 +39324,6 @@ Transform:
   m_Father: {fileID: 460936}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11458420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11414348}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &176476
 GameObject:
   m_ObjectHideFlags: 0
@@ -43308,7 +41863,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 439752}
-  - component: {fileID: 11476654}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -43332,25 +41886,6 @@ Transform:
   m_Father: {fileID: 460936}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11476654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11435586}
-  units: {fileID: 11452650}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &180734
 GameObject:
   m_ObjectHideFlags: 0
@@ -43468,7 +42003,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429948}
-  - component: {fileID: 11496740}
   m_Layer: 0
   m_Name: LED Green Numbers
   m_TagString: Untagged
@@ -43501,32 +42035,6 @@ Transform:
   m_Father: {fileID: 404358}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11496740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 108848}
-  - {fileID: 124132}
-  - {fileID: 186096}
-  - {fileID: 132906}
-  - {fileID: 182096}
-  - {fileID: 116856}
-  - {fileID: 103092}
-  - {fileID: 128432}
-  - {fileID: 155724}
-  - {fileID: 149892}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &181012
 GameObject:
   m_ObjectHideFlags: 0
@@ -43629,7 +42137,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441612}
-  - component: {fileID: 11492916}
   m_Layer: 0
   m_Name: LED Blue Point
   m_TagString: Untagged
@@ -43653,24 +42160,6 @@ Transform:
   m_Father: {fileID: 499088}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11492916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 103758}
-  - {fileID: 136132}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &181200
 GameObject:
   m_ObjectHideFlags: 0
@@ -43680,7 +42169,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 409056}
-  - component: {fileID: 11418778}
   m_Layer: 0
   m_Name: Digital clock select LED Atlas
   m_TagString: Untagged
@@ -43710,30 +42198,6 @@ Transform:
   m_Father: {fileID: 497394}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11418778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 176006}
-  - {fileID: 187158}
-  - {fileID: 174240}
-  - {fileID: 140106}
-  - {fileID: 108156}
-  - {fileID: 127836}
-  - {fileID: 145232}
-  - {fileID: 161956}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &181568
 GameObject:
   m_ObjectHideFlags: 0
@@ -43805,7 +42269,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 471932}
-  - component: {fileID: 11422626}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -43829,25 +42292,6 @@ Transform:
   m_Father: {fileID: 432260}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11422626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11438280}
-  tens: {fileID: 11450106}
-  units: {fileID: 11487924}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &182096
 GameObject:
   m_ObjectHideFlags: 0
@@ -44027,7 +42471,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 493908}
-  - component: {fileID: 11412170}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -44051,25 +42494,6 @@ Transform:
   m_Father: {fileID: 499670}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11412170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11448518}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &182584
 GameObject:
   m_ObjectHideFlags: 0
@@ -44341,7 +42765,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 477500}
-  - component: {fileID: 11438280}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -44365,25 +42788,6 @@ Transform:
   m_Father: {fileID: 432260}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11438280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 183026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11415128}
-  units: {fileID: 11437640}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &183052
 GameObject:
   m_ObjectHideFlags: 0
@@ -44825,7 +43229,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463384}
-  - component: {fileID: 11498014}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -44849,25 +43252,6 @@ Transform:
   m_Father: {fileID: 452306}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11498014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 183740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11461892}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &183818
 GameObject:
   m_ObjectHideFlags: 0
@@ -45093,7 +43477,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 449240}
-  - component: {fileID: 11416932}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -45117,25 +43500,6 @@ Transform:
   m_Father: {fileID: 468028}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11416932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11450496}
-  units: {fileID: 11406164}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &184426
 GameObject:
   m_ObjectHideFlags: 0
@@ -46287,7 +44651,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468028}
-  - component: {fileID: 11416014}
   m_Layer: 0
   m_Name: DigitalClock2_LED
   m_TagString: Untagged
@@ -46312,24 +44675,6 @@ Transform:
   m_Father: {fileID: 409056}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11416014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b908ce4d9cbc14489c84c042cae40b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoursDCV: {fileID: 11416932}
-  minutesDCV: {fileID: 11438606}
-  secondsDCV: {fileID: 0}
-  pointsDCV: {fileID: 11480708}
-  pointFlicker: 1
-  clockSpeed: 1
 --- !u!1 &187174
 GameObject:
   m_ObjectHideFlags: 0
@@ -46370,7 +44715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499088}
-  - component: {fileID: 11475938}
   m_Layer: 0
   m_Name: LEDPoint
   m_TagString: Untagged
@@ -46394,25 +44738,6 @@ Transform:
   m_Father: {fileID: 432260}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11475938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 2
-  NextValue: {fileID: 0}
-  tens: {fileID: 0}
-  units: {fileID: 11492916}
-  tensValue: 2
-  reverse: 0
 --- !u!1 &187534
 GameObject:
   m_ObjectHideFlags: 0
@@ -47440,7 +45765,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442700}
-  - component: {fileID: 11487924}
   m_Layer: 0
   m_Name: LED Blue Numbers
   m_TagString: Untagged
@@ -47473,32 +45797,6 @@ Transform:
   m_Father: {fileID: 471932}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11487924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 149066}
-  - {fileID: 109308}
-  - {fileID: 136802}
-  - {fileID: 135240}
-  - {fileID: 142882}
-  - {fileID: 180522}
-  - {fileID: 160286}
-  - {fileID: 199102}
-  - {fileID: 122360}
-  - {fileID: 138350}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &189926
 GameObject:
   m_ObjectHideFlags: 0
@@ -49590,7 +47888,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432774}
-  - component: {fileID: 11429342}
   m_Layer: 0
   m_Name: Select Marble Atlas
   m_TagString: Untagged
@@ -49616,26 +47913,6 @@ Transform:
   m_Father: {fileID: 424074}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11429342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 123216}
-  - {fileID: 125082}
-  - {fileID: 148228}
-  - {fileID: 193896}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &194806
 GameObject:
   m_ObjectHideFlags: 0
@@ -49722,7 +47999,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404358}
-  - component: {fileID: 11469084}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -49746,25 +48022,6 @@ Transform:
   m_Father: {fileID: 449090}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11469084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11494972}
-  tens: {fileID: 11467208}
-  units: {fileID: 11496740}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &195254
 GameObject:
   m_ObjectHideFlags: 0
@@ -50206,7 +48463,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416848}
-  - component: {fileID: 11448192}
   m_Layer: 0
   m_Name: Hours
   m_TagString: Untagged
@@ -50230,25 +48486,6 @@ Transform:
   m_Father: {fileID: 413848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11448192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 24
-  NextValue: {fileID: 0}
-  tens: {fileID: 11495496}
-  units: {fileID: 11466278}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &196030
 GameObject:
   m_ObjectHideFlags: 0
@@ -50891,7 +49128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465466}
-  - component: {fileID: 11411174}
   m_Layer: 0
   m_Name: LED Red Numbers
   m_TagString: Untagged
@@ -50924,32 +49160,6 @@ Transform:
   m_Father: {fileID: 419338}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11411174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 193988}
-  - {fileID: 145522}
-  - {fileID: 135298}
-  - {fileID: 167452}
-  - {fileID: 111152}
-  - {fileID: 109952}
-  - {fileID: 170224}
-  - {fileID: 180114}
-  - {fileID: 118780}
-  - {fileID: 103548}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 0
 --- !u!1 &197648
 GameObject:
   m_ObjectHideFlags: 0
@@ -51638,7 +49848,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 499214}
-  - component: {fileID: 11496882}
   m_Layer: 0
   m_Name: Select Plastic Atlas
   m_TagString: Untagged
@@ -51676,38 +49885,6 @@ Transform:
   m_Father: {fileID: 424074}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11496882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 196240}
-  - {fileID: 144398}
-  - {fileID: 172892}
-  - {fileID: 113166}
-  - {fileID: 109202}
-  - {fileID: 104348}
-  - {fileID: 156924}
-  - {fileID: 155796}
-  - {fileID: 158014}
-  - {fileID: 134570}
-  - {fileID: 176110}
-  - {fileID: 133214}
-  - {fileID: 103562}
-  - {fileID: 122134}
-  - {fileID: 169064}
-  - {fileID: 139372}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &199082
 GameObject:
   m_ObjectHideFlags: 0
@@ -51856,7 +50033,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441596}
-  - component: {fileID: 11456076}
   m_Layer: 0
   m_Name: Minutes
   m_TagString: Untagged
@@ -51880,25 +50056,6 @@ Transform:
   m_Father: {fileID: 452306}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11456076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3f5635e2a2c94bba763a859e816ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 0
-  maximumValue: 60
-  NextValue: {fileID: 11405664}
-  tens: {fileID: 11405738}
-  units: {fileID: 11409666}
-  tensValue: 10
-  reverse: 0
 --- !u!1 &199652
 GameObject:
   m_ObjectHideFlags: 0

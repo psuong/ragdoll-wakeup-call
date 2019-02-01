@@ -689,7 +689,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 494244}
-  - component: {fileID: 11407102}
   m_Layer: 0
   m_Name: Select Plastic Atlas
   m_TagString: Untagged
@@ -727,38 +726,6 @@ Transform:
   m_Father: {fileID: 459282}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11407102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 160128}
-  - {fileID: 189444}
-  - {fileID: 106756}
-  - {fileID: 186792}
-  - {fileID: 133104}
-  - {fileID: 166896}
-  - {fileID: 173558}
-  - {fileID: 190058}
-  - {fileID: 151900}
-  - {fileID: 143922}
-  - {fileID: 160194}
-  - {fileID: 147046}
-  - {fileID: 110074}
-  - {fileID: 177776}
-  - {fileID: 183478}
-  - {fileID: 166640}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &103150
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,7 +767,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447492}
-  - component: {fileID: 11423464}
   m_Layer: 0
   m_Name: Select Marble Atlas
   m_TagString: Untagged
@@ -826,26 +792,6 @@ Transform:
   m_Father: {fileID: 459282}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11423464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 179842}
-  - {fileID: 113756}
-  - {fileID: 198030}
-  - {fileID: 133986}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &103474
 GameObject:
   m_ObjectHideFlags: 0
@@ -4170,7 +4116,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408746}
-  - component: {fileID: 11401900}
   m_Layer: 0
   m_Name: Select Metal Atlas
   m_TagString: Untagged
@@ -4200,30 +4145,6 @@ Transform:
   m_Father: {fileID: 452588}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11401900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 165386}
-  - {fileID: 177810}
-  - {fileID: 131278}
-  - {fileID: 186862}
-  - {fileID: 184488}
-  - {fileID: 137446}
-  - {fileID: 165884}
-  - {fileID: 104508}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &117116
 GameObject:
   m_ObjectHideFlags: 0
@@ -5100,7 +5021,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 406326}
-  - component: {fileID: 11471380}
   m_Layer: 0
   m_Name: Select Marble Atlas
   m_TagString: Untagged
@@ -5126,26 +5046,6 @@ Transform:
   m_Father: {fileID: 452588}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11471380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 108894}
-  - {fileID: 143510}
-  - {fileID: 138178}
-  - {fileID: 169768}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &118898
 GameObject:
   m_ObjectHideFlags: 0
@@ -6681,7 +6581,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492042}
-  - component: {fileID: 11497412}
   m_Layer: 0
   m_Name: Select Metal Atlas
   m_TagString: Untagged
@@ -6711,30 +6610,6 @@ Transform:
   m_Father: {fileID: 459282}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11497412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 171938}
-  - {fileID: 107918}
-  - {fileID: 151042}
-  - {fileID: 155300}
-  - {fileID: 113484}
-  - {fileID: 183632}
-  - {fileID: 175850}
-  - {fileID: 156826}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &125694
 GameObject:
   m_ObjectHideFlags: 0
@@ -8043,7 +7918,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437032}
-  - component: {fileID: 11485276}
   m_Layer: 0
   m_Name: Select Plastic Atlas
   m_TagString: Untagged
@@ -8081,38 +7955,6 @@ Transform:
   m_Father: {fileID: 419428}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11485276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 176824}
-  - {fileID: 160964}
-  - {fileID: 116682}
-  - {fileID: 163368}
-  - {fileID: 121990}
-  - {fileID: 109998}
-  - {fileID: 145436}
-  - {fileID: 169462}
-  - {fileID: 109016}
-  - {fileID: 198442}
-  - {fileID: 112436}
-  - {fileID: 159344}
-  - {fileID: 197752}
-  - {fileID: 173874}
-  - {fileID: 194610}
-  - {fileID: 185936}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &130908
 GameObject:
   m_ObjectHideFlags: 0
@@ -10924,7 +10766,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463734}
-  - component: {fileID: 11429154}
   m_Layer: 0
   m_Name: Select Plastic Atlas
   m_TagString: Untagged
@@ -10962,38 +10803,6 @@ Transform:
   m_Father: {fileID: 452588}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11429154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 199792}
-  - {fileID: 165788}
-  - {fileID: 101776}
-  - {fileID: 153224}
-  - {fileID: 133826}
-  - {fileID: 112404}
-  - {fileID: 109212}
-  - {fileID: 118054}
-  - {fileID: 157024}
-  - {fileID: 133396}
-  - {fileID: 175948}
-  - {fileID: 155804}
-  - {fileID: 160670}
-  - {fileID: 141420}
-  - {fileID: 122124}
-  - {fileID: 144610}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &143510
 GameObject:
   m_ObjectHideFlags: 0
@@ -11715,7 +11524,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422350}
-  - component: {fileID: 11442764}
   m_Layer: 0
   m_Name: Select Wood Atlas
   m_TagString: Untagged
@@ -11745,30 +11553,6 @@ Transform:
   m_Father: {fileID: 452588}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11442764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 145736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 180586}
-  - {fileID: 183662}
-  - {fileID: 139730}
-  - {fileID: 145214}
-  - {fileID: 129872}
-  - {fileID: 184772}
-  - {fileID: 109774}
-  - {fileID: 125980}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &146390
 GameObject:
   m_ObjectHideFlags: 0
@@ -12457,7 +12241,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452588}
-  - component: {fileID: 11433578}
   m_Layer: 0
   m_Name: DrawerMain material select SWITCH
   m_TagString: Untagged
@@ -12483,26 +12266,6 @@ Transform:
   m_Father: {fileID: 478768}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11433578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 145736}
-  - {fileID: 118808}
-  - {fileID: 117036}
-  - {fileID: 143268}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &148358
 GameObject:
   m_ObjectHideFlags: 0
@@ -14988,7 +14751,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459282}
-  - component: {fileID: 11489144}
   m_Layer: 0
   m_Name: BaseMain material select SWITCH
   m_TagString: Untagged
@@ -15014,26 +14776,6 @@ Transform:
   m_Father: {fileID: 478768}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11489144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 186958}
-  - {fileID: 103186}
-  - {fileID: 125576}
-  - {fileID: 102682}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &159344
 GameObject:
   m_ObjectHideFlags: 0
@@ -15851,7 +15593,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418832}
-  - component: {fileID: 11471426}
   m_Layer: 0
   m_Name: Select Metal Atlas
   m_TagString: Untagged
@@ -15881,30 +15622,6 @@ Transform:
   m_Father: {fileID: 419428}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11471426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 131574}
-  - {fileID: 110460}
-  - {fileID: 157618}
-  - {fileID: 103474}
-  - {fileID: 160862}
-  - {fileID: 126644}
-  - {fileID: 196062}
-  - {fileID: 178472}
-  currentDisplay: 6
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &163368
 GameObject:
   m_ObjectHideFlags: 0
@@ -16085,7 +15802,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419428}
-  - component: {fileID: 11485470}
   m_Layer: 0
   m_Name: Handle material select SWITCH
   m_TagString: Untagged
@@ -16111,26 +15827,6 @@ Transform:
   m_Father: {fileID: 478768}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11485470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 170794}
-  - {fileID: 190244}
-  - {fileID: 162828}
-  - {fileID: 130902}
-  currentDisplay: 2
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &165072
 GameObject:
   m_ObjectHideFlags: 0
@@ -17413,7 +17109,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 483950}
-  - component: {fileID: 11461834}
   m_Layer: 0
   m_Name: Select Wood Atlas
   m_TagString: Untagged
@@ -17443,30 +17138,6 @@ Transform:
   m_Father: {fileID: 419428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11461834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 100968}
-  - {fileID: 103150}
-  - {fileID: 117420}
-  - {fileID: 176238}
-  - {fileID: 171596}
-  - {fileID: 151498}
-  - {fileID: 155130}
-  - {fileID: 138798}
-  currentDisplay: 5
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &171268
 GameObject:
   m_ObjectHideFlags: 0
@@ -17864,7 +17535,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478768}
-  - component: {fileID: 11458340}
   m_Layer: 0
   m_Name: Bed Desk Type 2
   m_TagString: Untagged
@@ -17893,29 +17563,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11458340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da66153f22c16b54f9c25bad691ef058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displaySelectedObject:
-  - {fileID: 11489144}
-  - {fileID: 11460340}
-  - {fileID: 11433578}
-  - {fileID: 11442764}
-  - {fileID: 11485470}
-  - {fileID: 11471426}
-  displayFrame: []
-  blindsOpenValue: 0
-  furnitureTextures: {fileID: 0}
-  GlobalOptionsDisplaySaveVar: {fileID: 0}
 --- !u!1 &173558
 GameObject:
   m_ObjectHideFlags: 0
@@ -20934,7 +20581,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467120}
-  - component: {fileID: 11460340}
   m_Layer: 0
   m_Name: Select Wood Atlas
   m_TagString: Untagged
@@ -20964,30 +20610,6 @@ Transform:
   m_Father: {fileID: 459282}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11460340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 195396}
-  - {fileID: 145192}
-  - {fileID: 125244}
-  - {fileID: 192344}
-  - {fileID: 162052}
-  - {fileID: 149926}
-  - {fileID: 169098}
-  - {fileID: 189168}
-  currentDisplay: 5
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &187134
 GameObject:
   m_ObjectHideFlags: 0
@@ -21722,7 +21344,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 425416}
-  - component: {fileID: 11401284}
   m_Layer: 0
   m_Name: Select Marble Atlas
   m_TagString: Untagged
@@ -21748,26 +21369,6 @@ Transform:
   m_Father: {fileID: 419428}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11401284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd5b4c54e111e240aa7b6088078e1f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayOptions:
-  - {fileID: 133654}
-  - {fileID: 193120}
-  - {fileID: 161312}
-  - {fileID: 171288}
-  currentDisplay: 0
-  temporalGOArrange: 0
-  ButtonSelectable: 1
 --- !u!1 &190498
 GameObject:
   m_ObjectHideFlags: 0
