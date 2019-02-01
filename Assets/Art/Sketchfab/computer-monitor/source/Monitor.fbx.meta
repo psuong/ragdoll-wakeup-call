@@ -1,0 +1,698 @@
+fileFormatVersion: 2
+guid: ce17cf09554258040aab2431bca64e23
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: '#'
+    100002: ''''
+    100004: ','
+    100006: '-'
+    100008: .
+    100010: /
+    100012: 0
+    100014: 1
+    100016: 2
+    100018: 3
+    100020: 4
+    100022: 5
+    100024: 6
+    100026: 7
+    100028: 8
+    100030: 9
+    100032: ;
+    100034: =
+    100036: '['
+    100038: \
+    100040: ']'
+    100042: '`'
+    100044: a
+    100046: Alt
+    100048: Alt Gr
+    100050: b
+    100052: Backspace
+    100054: c
+    100056: Caps Lock
+    100058: Ctrl Left
+    100060: Ctrl Right
+    100062: Cylinder001
+    100064: d
+    100066: Delete
+    100068: Down
+    100070: e
+    100072: End
+    100074: Enter
+    100076: Esc
+    100078: f
+    100080: F1
+    100082: F10
+    100084: F11
+    100086: F12
+    100088: F2
+    100090: F3
+    100092: F4
+    100094: F5
+    100096: F6
+    100098: F7
+    100100: F8
+    100102: F9
+    100104: g
+    100106: h
+    100108: Home
+    100110: i
+    100112: Insert
+    100114: j
+    100116: k
+    100118: KeyBoard
+    100120: Keyboard
+    100122: l
+    100124: Left
+    100126: Line001
+    100128: m
+    100130: //RootNode
+    100132: n
+    100134: Num *
+    100136: Num +
+    100138: Num -
+    100140: Num .
+    100142: Num /
+    100144: Num Enter
+    100146: Num Lock
+    100148: Num0
+    100150: Num1
+    100152: Num2
+    100154: Num3
+    100156: Num4
+    100158: Num5
+    100160: Num6
+    100162: Num7
+    100164: Num8
+    100166: Num9
+    100168: o
+    100170: Object
+    100172: Object002
+    100174: p
+    100176: Page
+    100178: Page Down
+    100180: Page Up
+    100182: Pause Break
+    100184: Prt Scrn
+    100186: q
+    100188: r
+    100190: Right
+    100192: s
+    100194: Scroll Lock
+    100196: Shift Left
+    100198: Shift Right
+    100200: Spacebar
+    100202: Sphere001
+    100204: Sphere002
+    100206: Sphere004
+    100208: t
+    100210: Tab
+    100212: u
+    100214: Up
+    100216: v
+    100218: w
+    100220: Windows Left
+    100222: Windows Right
+    100224: x
+    100226: y
+    100228: z
+    400000: '#'
+    400002: ''''
+    400004: ','
+    400006: '-'
+    400008: .
+    400010: /
+    400012: 0
+    400014: 1
+    400016: 2
+    400018: 3
+    400020: 4
+    400022: 5
+    400024: 6
+    400026: 7
+    400028: 8
+    400030: 9
+    400032: ;
+    400034: =
+    400036: '['
+    400038: \
+    400040: ']'
+    400042: '`'
+    400044: a
+    400046: Alt
+    400048: Alt Gr
+    400050: b
+    400052: Backspace
+    400054: c
+    400056: Caps Lock
+    400058: Ctrl Left
+    400060: Ctrl Right
+    400062: Cylinder001
+    400064: d
+    400066: Delete
+    400068: Down
+    400070: e
+    400072: End
+    400074: Enter
+    400076: Esc
+    400078: f
+    400080: F1
+    400082: F10
+    400084: F11
+    400086: F12
+    400088: F2
+    400090: F3
+    400092: F4
+    400094: F5
+    400096: F6
+    400098: F7
+    400100: F8
+    400102: F9
+    400104: g
+    400106: h
+    400108: Home
+    400110: i
+    400112: Insert
+    400114: j
+    400116: k
+    400118: KeyBoard
+    400120: Keyboard
+    400122: l
+    400124: Left
+    400126: Line001
+    400128: m
+    400130: //RootNode
+    400132: n
+    400134: Num *
+    400136: Num +
+    400138: Num -
+    400140: Num .
+    400142: Num /
+    400144: Num Enter
+    400146: Num Lock
+    400148: Num0
+    400150: Num1
+    400152: Num2
+    400154: Num3
+    400156: Num4
+    400158: Num5
+    400160: Num6
+    400162: Num7
+    400164: Num8
+    400166: Num9
+    400168: o
+    400170: Object
+    400172: Object002
+    400174: p
+    400176: Page
+    400178: Page Down
+    400180: Page Up
+    400182: Pause Break
+    400184: Prt Scrn
+    400186: q
+    400188: r
+    400190: Right
+    400192: s
+    400194: Scroll Lock
+    400196: Shift Left
+    400198: Shift Right
+    400200: Spacebar
+    400202: Sphere001
+    400204: Sphere002
+    400206: Sphere004
+    400208: t
+    400210: Tab
+    400212: u
+    400214: Up
+    400216: v
+    400218: w
+    400220: Windows Left
+    400222: Windows Right
+    400224: x
+    400226: y
+    400228: z
+    2100000: 'Material #48'
+    2100002: 'Material #72'
+    2100004: 'Material #50'
+    2100006: 'Material #51'
+    2100008: 'Material #52'
+    2100010: No Name
+    2300000: '#'
+    2300002: ''''
+    2300004: ','
+    2300006: '-'
+    2300008: .
+    2300010: /
+    2300012: 0
+    2300014: 1
+    2300016: 2
+    2300018: 3
+    2300020: 4
+    2300022: 5
+    2300024: 6
+    2300026: 7
+    2300028: 8
+    2300030: 9
+    2300032: ;
+    2300034: =
+    2300036: '['
+    2300038: \
+    2300040: ']'
+    2300042: '`'
+    2300044: a
+    2300046: Alt
+    2300048: Alt Gr
+    2300050: b
+    2300052: Backspace
+    2300054: c
+    2300056: Caps Lock
+    2300058: Ctrl Left
+    2300060: Ctrl Right
+    2300062: Cylinder001
+    2300064: d
+    2300066: Delete
+    2300068: Down
+    2300070: e
+    2300072: End
+    2300074: Enter
+    2300076: Esc
+    2300078: f
+    2300080: F1
+    2300082: F10
+    2300084: F11
+    2300086: F12
+    2300088: F2
+    2300090: F3
+    2300092: F4
+    2300094: F5
+    2300096: F6
+    2300098: F7
+    2300100: F8
+    2300102: F9
+    2300104: g
+    2300106: h
+    2300108: Home
+    2300110: i
+    2300112: Insert
+    2300114: j
+    2300116: k
+    2300118: KeyBoard
+    2300120: l
+    2300122: Left
+    2300124: Line001
+    2300126: m
+    2300128: n
+    2300130: Num *
+    2300132: Num +
+    2300134: Num -
+    2300136: Num .
+    2300138: Num /
+    2300140: Num Enter
+    2300142: Num Lock
+    2300144: Num0
+    2300146: Num1
+    2300148: Num2
+    2300150: Num3
+    2300152: Num4
+    2300154: Num5
+    2300156: Num6
+    2300158: Num7
+    2300160: Num8
+    2300162: Num9
+    2300164: o
+    2300166: Object
+    2300168: Object002
+    2300170: p
+    2300172: Page
+    2300174: Page Down
+    2300176: Page Up
+    2300178: Pause Break
+    2300180: Prt Scrn
+    2300182: q
+    2300184: r
+    2300186: Right
+    2300188: s
+    2300190: Scroll Lock
+    2300192: Shift Left
+    2300194: Shift Right
+    2300196: Spacebar
+    2300198: Sphere001
+    2300200: Sphere002
+    2300202: Sphere004
+    2300204: t
+    2300206: Tab
+    2300208: u
+    2300210: Up
+    2300212: v
+    2300214: w
+    2300216: Windows Left
+    2300218: Windows Right
+    2300220: x
+    2300222: y
+    2300224: z
+    3300000: '#'
+    3300002: ''''
+    3300004: ','
+    3300006: '-'
+    3300008: .
+    3300010: /
+    3300012: 0
+    3300014: 1
+    3300016: 2
+    3300018: 3
+    3300020: 4
+    3300022: 5
+    3300024: 6
+    3300026: 7
+    3300028: 8
+    3300030: 9
+    3300032: ;
+    3300034: =
+    3300036: '['
+    3300038: \
+    3300040: ']'
+    3300042: '`'
+    3300044: a
+    3300046: Alt
+    3300048: Alt Gr
+    3300050: b
+    3300052: Backspace
+    3300054: c
+    3300056: Caps Lock
+    3300058: Ctrl Left
+    3300060: Ctrl Right
+    3300062: Cylinder001
+    3300064: d
+    3300066: Delete
+    3300068: Down
+    3300070: e
+    3300072: End
+    3300074: Enter
+    3300076: Esc
+    3300078: f
+    3300080: F1
+    3300082: F10
+    3300084: F11
+    3300086: F12
+    3300088: F2
+    3300090: F3
+    3300092: F4
+    3300094: F5
+    3300096: F6
+    3300098: F7
+    3300100: F8
+    3300102: F9
+    3300104: g
+    3300106: h
+    3300108: Home
+    3300110: i
+    3300112: Insert
+    3300114: j
+    3300116: k
+    3300118: KeyBoard
+    3300120: l
+    3300122: Left
+    3300124: Line001
+    3300126: m
+    3300128: n
+    3300130: Num *
+    3300132: Num +
+    3300134: Num -
+    3300136: Num .
+    3300138: Num /
+    3300140: Num Enter
+    3300142: Num Lock
+    3300144: Num0
+    3300146: Num1
+    3300148: Num2
+    3300150: Num3
+    3300152: Num4
+    3300154: Num5
+    3300156: Num6
+    3300158: Num7
+    3300160: Num8
+    3300162: Num9
+    3300164: o
+    3300166: Object
+    3300168: Object002
+    3300170: p
+    3300172: Page
+    3300174: Page Down
+    3300176: Page Up
+    3300178: Pause Break
+    3300180: Prt Scrn
+    3300182: q
+    3300184: r
+    3300186: Right
+    3300188: s
+    3300190: Scroll Lock
+    3300192: Shift Left
+    3300194: Shift Right
+    3300196: Spacebar
+    3300198: Sphere001
+    3300200: Sphere002
+    3300202: Sphere004
+    3300204: t
+    3300206: Tab
+    3300208: u
+    3300210: Up
+    3300212: v
+    3300214: w
+    3300216: Windows Left
+    3300218: Windows Right
+    3300220: x
+    3300222: y
+    3300224: z
+    4300000: Object
+    4300002: Object002
+    4300004: Left
+    4300006: p
+    4300008: '['
+    4300010: ']'
+    4300012: u
+    4300014: i
+    4300016: o
+    4300018: r
+    4300020: t
+    4300022: y
+    4300024: q
+    4300026: w
+    4300028: e
+    4300030: ;
+    4300032: ''''
+    4300034: '#'
+    4300036: j
+    4300038: k
+    4300040: l
+    4300042: f
+    4300044: g
+    4300046: h
+    4300048: a
+    4300050: s
+    4300052: d
+    4300054: /
+    4300056: m
+    4300058: ','
+    4300060: .
+    4300062: v
+    4300064: b
+    4300066: n
+    4300068: z
+    4300070: x
+    4300072: c
+    4300074: 0
+    4300076: '-'
+    4300078: =
+    4300080: 7
+    4300082: 8
+    4300084: 9
+    4300086: 4
+    4300088: 5
+    4300090: 6
+    4300092: 1
+    4300094: 2
+    4300096: 3
+    4300098: '`'
+    4300100: Insert
+    4300102: Home
+    4300104: Page Up
+    4300106: Delete
+    4300108: End
+    4300110: Page Down
+    4300112: Sphere004
+    4300114: Down
+    4300116: Right
+    4300118: Up
+    4300120: Num Lock
+    4300122: Num /
+    4300124: Num *
+    4300126: Num7
+    4300128: Num8
+    4300130: Num9
+    4300132: Num4
+    4300134: Num5
+    4300136: Num6
+    4300138: Num1
+    4300140: Num2
+    4300142: Num3
+    4300144: Sphere002
+    4300146: Num .
+    4300148: Num0
+    4300150: Num +
+    4300152: Num Enter
+    4300154: Backspace
+    4300156: Shift Right
+    4300158: Spacebar
+    4300160: Ctrl Right
+    4300162: Page
+    4300164: Windows Right
+    4300166: Alt Gr
+    4300168: Alt
+    4300170: Windows Left
+    4300172: Ctrl Left
+    4300174: \
+    4300176: Enter
+    4300178: Shift Left
+    4300180: Caps Lock
+    4300182: Tab
+    4300184: Esc
+    4300186: F1
+    4300188: F2
+    4300190: F3
+    4300192: F4
+    4300194: F5
+    4300196: F6
+    4300198: F7
+    4300200: F8
+    4300202: F9
+    4300204: F10
+    4300206: F11
+    4300208: F12
+    4300210: Prt Scrn
+    4300212: Scroll Lock
+    4300214: Pause Break
+    4300216: Sphere001
+    4300218: Num -
+    4300220: KeyBoard
+    4300222: Line001
+    4300224: Cylinder001
+    7400000: Monitor
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #48'
+    second: {fileID: 2100000, guid: 8dc391e74c9e89247a66fbbb17990a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #50'
+    second: {fileID: 2100000, guid: 0200ab8bdb480154384ad746df39fec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #51'
+    second: {fileID: 2100000, guid: 795b68838f7e53e42a50a5c89127f14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #52'
+    second: {fileID: 2100000, guid: fa1b20d5f467cdf4d9c3a3f1971e8c15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #72'
+    second: {fileID: 2100000, guid: 88e1fb8c3b319614c900890a6b68fec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 45fe04f3afcd6db459426059526b00db, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
