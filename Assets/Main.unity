@@ -8915,7 +8915,7 @@ GameObject:
   - component: {fileID: 471964554}
   - component: {fileID: 471964560}
   m_Layer: 0
-  m_Name: Player3_Arms (1)
+  m_Name: Player3_Arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10668,7 +10668,7 @@ GameObject:
   - component: {fileID: 642348248}
   - component: {fileID: 642348247}
   m_Layer: 0
-  m_Name: Player1_Head&Chest (1)
+  m_Name: Player1_Head&Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19820,7 +19820,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 69
   m_IsActive: 1
 --- !u!64 &1168405649
 MeshCollider:
@@ -21256,7 +21256,7 @@ GameObject:
   - component: {fileID: 1336908695}
   - component: {fileID: 1336908701}
   m_Layer: 0
-  m_Name: Player4_Legs (1)
+  m_Name: Player4_Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25276,6 +25276,46 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 833198888541325791, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 833198888541325791, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465835408596344593, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465835408596344593, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076211176811742645, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2076211176811742645, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 927651706203979165, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 927651706203979165, guid: 2ba365717d12a2d4d9337189b481865e,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ba365717d12a2d4d9337189b481865e, type: 3}
 --- !u!1 &1475476650
@@ -28668,7 +28708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1866451753
 MonoBehaviour:
   m_ObjectHideFlags: 0
