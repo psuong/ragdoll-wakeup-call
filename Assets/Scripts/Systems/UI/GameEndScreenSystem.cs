@@ -50,7 +50,7 @@ namespace RagdollWakeUp.UI.Systems {
 
                 if (current == GameState.Win) {
 
-                    text.text = string.Format (endMessage.Value, timer.Minutes, Mathf.RoundToInt (timer.Value - timer.Minutes * 60f));
+                    text.text = string.Format (endMessage.Value, timer.Minutes, Mathf.FloorToInt (timer.Value - timer.Minutes * 60f));
                     var orig = backgrounds[0];
                     var currentTime = orig.CurrentDuration += Time.deltaTime;
                     backgrounds[0] = orig;

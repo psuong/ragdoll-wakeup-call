@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    Wait: 0
+    Wait: 10
     SceneName: Main
 --- !u!114 &6825318626377420859
 MonoBehaviour:
