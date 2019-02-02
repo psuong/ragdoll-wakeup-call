@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using RagdollWakeUp.GameStates;
 using RagdollWakeUp.Inputs;
 using RagdollWakeUp.Tags;
 using Unity.Collections;
@@ -10,7 +11,7 @@ using UnityEngine.Experimental.PlayerLoop;
 namespace RagdollWakeUp.Forces {
     [UpdateAfter (typeof (FixedUpdate))]
     public class ApplyLocalLimbForceSystem : ComponentSystem {
-        private ComponentGroup limbGroup, chestGroup;
+        private ComponentGroup limbGroup, chestGroup, gameGroup;
         const int headChestIdNumber = 0;
         const int armIdNumber = 2;
         const int legIdNumber = 3;
@@ -26,11 +27,17 @@ namespace RagdollWakeUp.Forces {
                 ComponentType.ReadOnly<ChestTag> (),
                 typeof (Transform)
             );
+
+            gameGroup = GetComponentGroup (
+                ComponentType.ReadOnly<GameStateInstance> ()
+            );
         }
         private Vector3 RotateVectorAroundAxis (Vector3 vec, Vector3 axis, float angle) {
             return Quaternion.AngleAxis (angle, axis) * vec;
         }
         protected override void OnUpdate () {
+            if (!CanRunSimulation (ref gameGroup)) { return; }
+
             var inputAxiiArray = limbGroup.GetComponentDataArray<InputAxii> ();
             var limbForceApplicationsArray = limbGroup.GetComponentDataArray<LimbForceApplications> ();
             var rigidBodyArray = limbGroup.GetSharedComponentDataArray<PlayerLimbs> ();
@@ -38,7 +45,9 @@ namespace RagdollWakeUp.Forces {
 
             // This array should be size 1
             if (chestGroup.CalculateLength () == 0) {
+#if UNITY_EDITOR
                 Debug.Log ("didn't find an object with chestTag");
+#endif
                 return;
             }
             // Forces are applied relative to where the chest is facing
@@ -101,6 +110,11 @@ namespace RagdollWakeUp.Forces {
                 } else if (limbs.RightLimb != null && limbs.RightLimb.transform.localPosition.y < 2f)
                     limbs.RightLimb?.AddForce (rightForceVec);
             }
+        }
+
+        private bool CanRunSimulation (ref ComponentGroup group) {
+            var states = group.GetComponentDataArray<GameStateInstance> ();
+            return states.Length > 0 ? states[0].Value == GameState.Gameplay : true;
         }
     }
 }
